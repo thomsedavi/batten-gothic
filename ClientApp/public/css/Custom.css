@@ -1,0 +1,52 @@
+﻿@font-face {
+    font-family: 'cormorant_infantlight';
+    src: url('../fonts/CormorantInfant-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "cormorant_infantregular";
+    src: url("../fonts/CormorantInfant-Regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cormorant_infantmedium';
+    src: url('../fonts/CormorantInfant-Medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cormorant_infantsemibold';
+    src: url('../fonts/CormorantInfant-SemiBold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cormorant_infantbold';
+    src: url('../fonts/CormorantInfant-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body.batten-gothic {
+    background-color: snow;
+    color: darkslateblue
+}
+
+body.batten-gothic p, body li, body.batten-gothic a.navbar-brand {
+    font-family: "cormorant_infantmedium";
+    font-size: 14pt;
+}
+
+body.batten-gothic h1 {
+    font-family: 'cormorant_infantmedium';
+}
+
+body.batten-gothic strong {
+    font-family: 'cormorant_infantbold';
+}
