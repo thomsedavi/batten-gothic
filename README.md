@@ -1,1 +1,2 @@
-"# batten-gothic" 
+# batten-gothic
+This is primarily a creative writing project but with a custom built website. The creative writing will include picture puzzles that need to be solved to unlock further content. The code behind the website is of secondary importance and to begin with I will probably just hard code all of the chapters and puzzles, but if my story becomes popular enough (or I really feel like doing this properly) I might custom build a proper content management system and editor.
