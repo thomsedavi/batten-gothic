@@ -13,10 +13,10 @@ export class Home extends Component {
         <p>Progress so far:</p>
         <ul>
           <NavItem>
-            <NavLink tag={Link} className="text-dark" to="/chapters/prologue">This Table of Contentment</NavLink>
+            <NavLink tag={Link} className="text-dark" to="/chapters/index">This Table of Contentment</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={Link} className="text-dark" to="/chapters/index">This Prologue</NavLink>
+            <NavLink tag={Link} className="text-dark" to="/chapters/prologue">This Prologue</NavLink>
           </NavItem>
         </ul>
         <div className="image-container">

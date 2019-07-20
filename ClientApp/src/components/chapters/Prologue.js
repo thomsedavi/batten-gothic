@@ -6,8 +6,8 @@ export class Prologue extends Component {
   constructor(props) {
     super(props);
 
-    this.characters = ['A', 'E', 'I', 'K', 'M', 'R', 'T'];
-    this.solution = ['K', 'A', 'R', 'M', 'A'];
+    this.characters = ['a', 'e', 'i', 'k', 'm', 'r', 't'];
+    this.solution = ['k', 'a', 'r', 'm', 'a'];
 
     this.addCharacter = this.addCharacter.bind(this);
     this.selectCharacter = this.selectCharacter.bind(this);

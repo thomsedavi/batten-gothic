@@ -1,76 +1,126 @@
 ﻿@font-face {
-    font-family: 'cormorantlight';
-    src: url('../fonts/Cormorant-Light-webfont.woff') format('woff');
+    font-family: "cormorantlight";
+    src: url("../fonts/Cormorant-Light-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "cormorantregular";
-    src: url("../fonts/Cormorant-Regular-webfont.woff") format('woff');
+    src: url("../fonts/Cormorant-Regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'cormorantmedium';
-    src: url('../fonts/Cormorant-Medium-webfont.woff') format('woff');
+    font-family: "cormorantmedium";
+    src: url("../fonts/Cormorant-Medium-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'cormorantsemibold';
-    src: url('../fonts/Cormorant-SemiBold-webfont.woff') format('woff');
+    font-family: "cormorantsemibold";
+    src: url("../fonts/Cormorant-SemiBold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'cormorantbold';
-    src: url('../fonts/Cormorant-Bold-webfont.woff') format('woff');
+    font-family: "cormorantbold";
+    src: url("../fonts/Cormorant-Bold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'cormorant_infantlight';
-    src: url('../fonts/CormorantInfant-Light-webfont.woff') format('woff');
+    font-family: "cormorant_infantlight";
+    src: url("../fonts/CormorantInfant-Light-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "cormorant_infantregular";
-    src: url("../fonts/CormorantInfant-Regular-webfont.woff") format('woff');
+    src: url("../fonts/CormorantInfant-Regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'cormorant_infantmedium';
-    src: url('../fonts/CormorantInfant-Medium-webfont.woff') format('woff');
+    font-family: "cormorant_infantmedium";
+    src: url("../fonts/CormorantInfant-Medium-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'cormorant_infantsemibold';
-    src: url('../fonts/CormorantInfant-SemiBold-webfont.woff') format('woff');
+    font-family: "cormorant_infantsemibold";
+    src: url("../fonts/CormorantInfant-SemiBold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'cormorant_infantbold';
-    src: url('../fonts/CormorantInfant-Bold-webfont.woff') format('woff');
+    font-family: "cormorant_infantbold";
+    src: url("../fonts/CormorantInfant-Bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "cormorant_unicaselight";
+    src: url("../fonts/CormorantUnicase-Light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "cormorant_unicaseregular";
+    src: url("../fonts/CormorantUnicase-Regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "cormorant_unicasemedium";
+    src: url("../fonts/CormorantUnicase-Medium-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "cormorant_unicasesemibold";
+    src: url("../fonts/CormorantUnicase-SemiBold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "cormorant_unicasebold";
+    src: url("../fonts/CormorantUnicase-Bold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 body.batten-gothic {
-    background-color: #fafffa;
-    color: #002000;
+    background-color: #fffffa;
+    color: #282800;
+}
+
+body.batten-gothic .navbar-light .navbar-toggler {
+    border-color: #8255eb;
+}
+
+body.batten-gothic .text-dark,
+body.batten-gothic .text-dark:focus,
+body.batten-gothic .navbar-brand {
+    color: #8255eb !important;
+}
+
+body.batten-gothic .text-dark:hover,
+body.batten-gothic .navbar-brand:hover {
+    color: #5519e1 !important;
 }
 
 body.batten-gothic p {
@@ -79,9 +129,16 @@ body.batten-gothic p {
 }
 
 body.batten-gothic p, body li, body.batten-gothic a.navbar-brand {
-    font-family: "cormorant_infantmedium";
     font-size: 12pt;
     line-height: 1.4em;
+}
+
+body.batten-gothic p, body li {
+    font-family: "cormorant_infantmedium";
+}
+
+body.batten-gothic a.navbar-brand {
+    font-family: "cormorant_unicasebold";
 }
 
 body li.meta {
@@ -89,12 +146,12 @@ body li.meta {
 }
 
 body.batten-gothic h1 {
-    font-family: 'cormorant_infantmedium';
+    font-family: "cormorant_unicasebold";
     text-align: center;
 }
 
 body.batten-gothic strong {
-    font-family: 'cormorant_infantbold';
+    font-family: "cormorant_infantbold";
 }
 
 div.solution-characters {
@@ -107,7 +164,7 @@ div.solution-character {
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
-    font-family: Arial Black;
+    font-family: "cormorant_unicasebold";
     margin: 4px;
     min-height: 0.5em;
     text-align: center;
@@ -115,7 +172,7 @@ div.solution-character {
 }
 
 div.solution-character.selected {
-    border-color: #dc78dc;
+    border-color: #8255eb;
 }
 
 div.input-characters {
@@ -123,15 +180,19 @@ div.input-characters {
 }
 
 div.input-character {
-    background-color: #ffffff;
-    border: 2px solid #002000;
+    background-color: #8255eb;
     border-radius: 5px;
+    color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-family: Arial Black;
+    font-family: "cormorant_unicasebold";
     margin: 4px;
     text-align: center;
     width: 1.5em;
+}
+
+div.input-character:hover {
+    background-color: #5519e1;
 }
 
 div.image-container {
