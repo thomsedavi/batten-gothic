@@ -1,126 +1,81 @@
 ﻿@font-face {
-    font-family: "cormorantlight";
-    src: url("../fonts/Cormorant-Light-webfont.woff") format("woff");
+    font-family: "solviegbold_italic";
+    src: url("../fonts/SolveigBold-Italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "cormorantregular";
-    src: url("../fonts/Cormorant-Regular-webfont.woff") format("woff");
+    font-family: "solviegbold";
+    src: url("../fonts/SolveigBold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "cormorantmedium";
-    src: url("../fonts/Cormorant-Medium-webfont.woff") format("woff");
+    font-family: "solviegdemibold_italic";
+    src: url("../fonts/SolveigDemiBold-Italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "cormorantsemibold";
-    src: url("../fonts/Cormorant-SemiBold-webfont.woff") format("woff");
+    font-family: "solviegdemibold";
+    src: url("../fonts/SolveigDemiBold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "cormorantbold";
-    src: url("../fonts/Cormorant-Bold-webfont.woff") format("woff");
+    font-family: "solviegdisplay_italic";
+    src: url("../fonts/SolveigDisplay-Italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "cormorant_infantlight";
-    src: url("../fonts/CormorantInfant-Light-webfont.woff") format("woff");
+    font-family: "solviegdisplay";
+    src: url("../fonts/SolveigDisplay-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "cormorant_infantregular";
-    src: url("../fonts/CormorantInfant-Regular-webfont.woff") format("woff");
+    font-family: "solviegtext_italic";
+    src: url("../fonts/SolveigText-Italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "cormorant_infantmedium";
-    src: url("../fonts/CormorantInfant-Medium-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "cormorant_infantsemibold";
-    src: url("../fonts/CormorantInfant-SemiBold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "cormorant_infantbold";
-    src: url("../fonts/CormorantInfant-Bold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "cormorant_unicaselight";
-    src: url("../fonts/CormorantUnicase-Light-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "cormorant_unicaseregular";
-    src: url("../fonts/CormorantUnicase-Regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "cormorant_unicasemedium";
-    src: url("../fonts/CormorantUnicase-Medium-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "cormorant_unicasesemibold";
-    src: url("../fonts/CormorantUnicase-SemiBold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "cormorant_unicasebold";
-    src: url("../fonts/CormorantUnicase-Bold-webfont.woff") format("woff");
+    font-family: "solviegtext";
+    src: url("../fonts/SolveigText-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 body.batten-gothic {
-    background-color: #fffffa;
-    color: #282800;
+    background-color: #000000; /* #fffff5 */
+    color: #fffff5; /* #282800 */
 }
 
 body.batten-gothic .navbar-light .navbar-toggler {
-    border-color: #8255eb;
+    border-color: #96c8fa; /* #8255eb */
+}
+
+body.batten-gothic .navbar-light .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 250, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 body.batten-gothic .text-dark,
 body.batten-gothic .text-dark:focus,
 body.batten-gothic .navbar-brand {
-    color: #8255eb !important;
+    color: rgb(255, 255, 245) !important;
 }
 
 body.batten-gothic .text-dark:hover,
 body.batten-gothic .navbar-brand:hover {
-    color: #5519e1 !important;
+    color: rgb(205, 205, 230) !important;
 }
 
 body.batten-gothic p {
@@ -134,24 +89,39 @@ body.batten-gothic p, body li, body.batten-gothic a.navbar-brand {
 }
 
 body.batten-gothic p, body li {
-    font-family: "cormorant_infantmedium";
+    font-family: "solviegdemibold";
+}
+
+body.batten-gothic hr {
+    border-top: 1px solid rgb(205, 205, 230);
+}
+
+body.batten-gothic hr.test {
+    opacity: 0.5;
+    border-top-color: #282814;
+    box-shadow: 0px 0px 8px #646432;
 }
 
 body.batten-gothic a.navbar-brand {
-    font-family: "cormorant_unicasebold";
+    font-family: "solviegdemibold";
+}
+
+body.batten-gothic p.objective {
+    font-family: "solviegdemibold_italic";
+    text-align: center;
 }
 
 body li.meta {
-    font-family: "cormorantmedium";
+    font-family: "solviegdemibold";
 }
 
 body.batten-gothic h1 {
-    font-family: "cormorant_unicasebold";
+    font-family: "solviegdemibold";
     text-align: center;
 }
 
 body.batten-gothic strong {
-    font-family: "cormorant_infantbold";
+    font-family: "solviegdemibold";
 }
 
 div.solution-characters {
@@ -164,7 +134,7 @@ div.solution-character {
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
-    font-family: "cormorant_unicasebold";
+    font-family: "solviegdemibold";
     margin: 4px;
     min-height: 0.5em;
     text-align: center;
@@ -179,13 +149,17 @@ div.input-characters {
     text-align: center;
 }
 
+.punctuation {
+    color: #ffffff;
+}
+
 div.input-character {
     background-color: #8255eb;
     border-radius: 5px;
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-family: "cormorant_unicasebold";
+    font-family: "solviegdemibold";
     margin: 4px;
     text-align: center;
     width: 1.5em;
@@ -204,6 +178,75 @@ div.image-container img {
     margin: 1.5em 0;
 }
 
+.overlay-container {
+    position: relative;
+}
+
+.overlay-container img.overlay {
+    position: absolute;
+    transform: translateX(-100%);
+}
+
+.section {
+    position: relative;
+}
+
+.reveal {
+    /*left: 50%;
+    position: absolute;
+    transform: translateX(-50%); */
+}
+
+.actions {
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.sections .actions {
+    background-color: #000000;
+    border: 2px solid #fffff5;
+    border-radius: 8px;
+    padding: 16px 32px;
+    position: absolute;
+}
+
+.sections .actions:before {
+    border-radius: 5px;
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 3px;
+    left: 8px;
+    right: 8px;
+    bottom: 3px;
+    border: 2px solid #fffff5;
+}
+
+.sections .actions p.objective {
+    color: #fffff5;
+    opacity: 1;
+}
+
+.puzzles .actions {
+    position: relative;
+}
+
+.section.active p {
+    opacity: 1;
+    text-shadow: 0 0 8px #000000;
+}
+
+.section.inactive p {
+    color: #282814;
+    opacity: 0.5;
+    text-shadow: 0 0 8px #646432;
+}
+
+.section.last {
+    margin-bottom: 4em;
+}
+
 .hidden-text {
     display: none;
 }
@@ -215,9 +258,7 @@ div.image-container img {
 
 .hidden-text.revealed.visible {
     opacity: 1;
-    transition: opacity 2s;
 }
-
 
 @media (min-width: 576px) {
     body.batten-gothic p, body li, body.batten-gothic a.navbar-brand {
@@ -245,4 +286,141 @@ div.image-container img {
         font-size: 14pt;
         line-height: 1.5em;
     }
+}
+
+.actions, .objects {
+    text-align: center;
+}
+
+.objects button.object {
+    font-family: "solviegbold_italic";
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: rgb(205, 205, 230);
+    cursor: pointer;
+    margin: 0.5em;
+}
+
+.objects button.object:hover {
+    color: rgb(255, 255, 245);
+}
+
+.objects button.object:focus {
+    outline: none;
+}
+
+.objects button.object.selected {
+    background-color: rgb(205, 205, 230);
+    color: #000000;
+}
+
+.objects button.object.selected:hover {
+    background-color: #a5a59b; /* 165, 165, 155 */
+}
+
+.action {
+    border: none;
+    border-radius: 5px;
+    font-family: "solviegbold_italic";
+    margin: 0.5em;
+    padding: 2px 10px;
+}
+
+.action:focus {
+    outline: none;
+}
+
+.action.reveal {
+    background-color: rgb(255, 255, 245);
+    z-index: 1;
+}
+
+.action.reveal:hover {
+    background-color: rgb(205, 205, 230);
+}
+
+.action.check {
+    background-color: rgb(255, 255, 245);
+}
+
+.action.check:hover {
+    background-color: rgb(205, 205, 230);
+}
+
+.action.skip {
+    background-color: rgb(255, 255, 245);
+    transition: transform 0.3s;
+
+}
+
+.action.skip:hover {
+    background-color: rgb(205, 205, 230);
+}
+
+.action.skip.confirm-skip {
+    transform: scaleY(-1);
+    transition: transform 0.3s;
+}
+
+.puzzle-container {
+    position: relative;
+}
+
+.puzzles {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 245);
+    border-radius: 8px;
+    padding: 16px 32px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.puzzles:before {
+    border-radius: 5px;
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 3px;
+    left: 8px;
+    right: 8px;
+    bottom: 3px;
+    border: 2px solid rgb(255, 255, 245);
+}
+
+.sections {
+    position: absolute;
+    top: 0;
+}
+
+.close-puzzle {
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "solviegdemibold";
+    position: fixed;
+    right: 0.5em;
+    text-align: center;
+    top: 0;
+    width: 1em;
+}
+
+.post-script {
+    text-align: center;
+    background-color: black;
+    border: 1px solid #66757f;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    padding: 0.5em;
+}
+
+body.batten-gothic .post-script p {
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+    font-size: 16px;
+    text-indent: 0;
 }

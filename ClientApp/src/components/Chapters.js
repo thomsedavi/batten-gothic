@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import { NavItem, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-export class Index extends Component {
-  static displayName = Index.name;
+export class Chapters extends Component {
+  static displayName = Chapters.name;
 
-  render () {
+  render() {
     return (
       <div>
         <h1>Chapters</h1>
-        <ul>
+        <ol>
           <NavItem>
-            <NavLink tag={Link} className="text-dark" to="/chapters/prologue">Prologue</NavLink>
+            <NavLink tag={Link} className="text-dark" to="/chapters/1">A Fork in the Road</NavLink>
           </NavItem>
-        </ul>
+        </ol>
       </div>
     );
   }

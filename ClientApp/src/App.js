@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router';
-import { Layout } from './components/Layout';
+import { Route, Switch } from 'react-router';
 import { Home } from './components/Home';
-import { FetchData } from './components/FetchData';
-import { Counter } from './components/Counter';
+import { Layout } from './components/Layout';
 import { Meta } from './components/Meta';
-import { Index } from './components/chapters/Index';
-import { Prologue } from './components/chapters/Prologue';
+import { Chapter } from './components/Chapter';
+import { Chapters } from './components/Chapters';
 
 export default class App extends Component {
   static displayName = App.name;
@@ -14,12 +12,12 @@ export default class App extends Component {
   render () {
     return (
       <Layout>
-        <Route exact path='/' component={Home} />
-        <Route path='/counter' component={Counter} />
-        <Route path='/fetch-data' component={FetchData} />
-        <Route path='/meta' component={Meta} />
-        <Route path='/chapters/index' component={Index} />
-        <Route path='/chapters/prologue' component={Prologue} />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/meta' component={Meta} />
+          <Route path='/chapters/:chapter' component={Chapter} />
+          <Route path='/chapters' component={Chapters} />
+        </Switch>
       </Layout>
     );
   }
